@@ -1,0 +1,176 @@
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.col{
+    border: 1px;
+    height: 40px;
+    padding: 12px;
+}
+
+.header-top{
+    background-color: #169FCC;
+    height: 110px;
+}/*
+.nav-section{
+    background-color: #169FCC;
+    height: 80px;
+}
+.academic{
+    background-color: #169FCC;
+    
+}
+.academic-title{
+    font-weight: 900;
+    color: azure;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+.content-academic{
+    color:whitesmoke;
+    text-align:justify;
+    font-size: 20px;
+    grid-column: 50%;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#academic-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color:black;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 10px;
+    vertical-align: baseline;
+}
+
+
+
+  
+  
+
+
+
+
+
+
+
+.col-2{
+    width: 16.66666667%;
+    border:  1px red;
+    min-height: 50px;
+}
+.col-3{
+    width: 25%;
+    border:  1px red;
+    min-height: 50px;
+}
+
+.main:hover{
+color: gold;
+}
+
+
+.research{
+    font-size: 2rem;
+    text-align: center;
+    color: #169FCC;
+}
+.research-content{
+    text-align: justify;
+}
+.col-4{
+    width: 33.33333%;
+    min-height: 50px;
+    flex-wrap:wrap;
+    margin: 18px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.col-5{
+    width: 41.66666667%;
+    border:  1px red;
+    min-height: 50px;
+}
+
+
+
+
+.course-content{
+    text-align: center;
+    color: #169FCC;
+    margin: 10px;
+    padding: 12px;
+}
+.course-content-para{
+    font-size: 20px;
+}
+.col-6{
+    width: 48%;
+    min-height: 50px;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: #d1edf7;
+}
+.col-12{
+    width: 100%;
+    border: 1px solid red;
+    min-height: 50px;
+}
+.justify-center{
+    justify-content: center;
+}
+.wrap-wrap{
+    flex-wrap: wrap;
+}
+.col{
+    border: 1px red;
+    min-height: 40px;
+}
+.header-top{
+    background-color: #169FCC;
+    min-height: 80px;
+}
+.nav-section{
+    background-color: #169FCC;
+    min-height: 80px;
+    display: block;
+    line-height: 30px;
+    padding-top: 25px;
+}
+ul{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.academic{
+    background-color: #169FCC;
+    min-height: 500px;
+}
